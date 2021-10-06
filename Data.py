@@ -4,18 +4,18 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+Halo {}
 
-Welcome to {}
+Selamat datang {}
 
-If you don't trust this bot, 
-1) stop reading this message
-2) delete this chat
+Jika kamu tidak percaya bot ini, 
+1) gausah baca pesan ini
+2) blokir bot atau delete chat
 
 Still reading?
 You can use me to generate pyrogram and telethon string session. Use below buttons to learn more !
 
-By @StarkBots
+By @fckualot
     """
 
     # Home Button
@@ -31,12 +31,12 @@ By @StarkBots
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ Maintaned By ✨", url="https://t.me/fckualot")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/rioprojects")],
     ]
 
     # Help Message
@@ -55,13 +55,13 @@ By @StarkBots
     ABOUT = """
 **About This Bot** 
 
-A telegram bot to generate pyrogram and telethon string session by @StarkBots
+A telegram bot to generate pyrogram and telethon string session by @stringriobot
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
+Group Support : [Click Here](https://t.me/riogroupsupport)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : @fckualot
     """
