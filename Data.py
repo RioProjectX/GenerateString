@@ -12,9 +12,7 @@ Jika kamu tidak percaya bot ini,
 1) gausah baca pesan ini
 2) blokir bot atau delete chat
 
-Still reading?
-You can use me to generate pyrogram and telethon string session. Use below buttons to learn more !
-
+Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
 By @fckualot
     """
 
@@ -47,8 +45,8 @@ By @fckualot
 /help - This Message
 /start - Mulai Bot
 /generate - Mulai Generating Session
-/cancel - Cancel the process
-/restart - Cancel the process
+/cancel - Membatalkan process
+/restart - Membatalkan process
 """
 
     # About Message
