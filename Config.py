@@ -13,8 +13,8 @@ if ENVIRONMENT:
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")  # Sqlalchemy dropped support for "postgres" name.
     # https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre
     MUST_JOIN = os.environ.get('MUST_JOIN', None)
-    if MUST_JOIN.startswith("@"):
-        MUST_JOIN = MUST_JOIN.replace("@", "")
+    if MUST_JOIN.startswith("@riogroupsupport"):
+        MUST_JOIN = MUST_JOIN.replace("@rioprojects", "")
 else:
     # Fill the Values
     API_ID = 0
@@ -23,5 +23,5 @@ else:
     DATABASE_URL = ""
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = ""
-    if MUST_JOIN.startswith("@"):
+    if MUST_JOIN.startswith("@riogroupsupport"):
         MUST_JOIN = MUST_JOIN[1:]
