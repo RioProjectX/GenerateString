@@ -9,8 +9,8 @@ Halo {}
 Selamat datang {}
 
 Jika kamu tidak percaya bot ini, 
-1) gausah baca pesan ini
-2) blokir bot atau delete chat
+1) Silahkan Tinggalkan Bot Ini
+2) Bot Ini Aman 100% Udah BPOM YA GES YA
 
 Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
 By @fckualot
