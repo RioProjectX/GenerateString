@@ -1,7 +1,7 @@
 {
-  "name": "String Session Generator",
-  "description": "Telegram bot to generate pyrogram string session",
-  "logo": "https://telegra.ph/file/7ec22c82f580a334dd13e.jpg",
+  "name": "sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ",
+  "description": "A Telegram Bot to generate Telethon and Pyrogram String Sessions.",
+  "logo": "https://telegra.ph/file/6c7458e6468f89976bbf0.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/RioProjectX/GenerateString",
+  "repository": "https://github.com/RIopROJECTX/GenerateString",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -33,23 +33,23 @@
       "value": "ANYTHING"
     },
     "API_ID": {
-      "description": "Get this value from my.telegram.org.",
+      "description": "Get this value from my.telegram.org/apps.",
       "required": true,
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org.",
-      "required": true,
-      "value": ""
-    },
-    "BOT_TOKEN": {
-      "description": "Obtain a Telegram bot token by contacting @BotFather",
+      "description": "Get this value from my.telegram.org/apps.",
       "required": true,
       "value": ""
     },
     "MUST_JOIN": {
-      "description": "Add username/id of a channel/group",
-      "required": false,
+      "description": "Username of a group or channel for which you want to set force sub.(without @)",
+      "required": true,
+      "value": "rioprojects"
+    },
+    "BOT_TOKEN": {
+      "description": "Get this value from @BotFather",
+      "required": true,
       "value": ""
     }
   }
